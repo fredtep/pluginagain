@@ -1,0 +1,17 @@
+const url3 = 'file:///FLAG';
+
+// Fetch the text file
+fetch(url3)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.text();
+  })
+  .then(data => {
+    // Do something with the text content of the file
+    console.log(data); // Output the content of the text file
+  })
+  .catch(error => {
+    console.error('There was a problem fetching the text file:', error);
+  });

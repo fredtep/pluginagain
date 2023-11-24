@@ -1,4 +1,4 @@
-const url = 'http://website-mbhwad.inst.malicecyber.com/FLAG';
+const url = 'http://127.0.0.1/FLAG';
 
 // Fetch the text file
 fetch(url)

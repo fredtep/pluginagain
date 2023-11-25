@@ -1,4 +1,4 @@
-url = 'http://website-jmwrwc.inst.malicecyber.com/activate-plugin/1'
+url = 'http://localhost:5000/activate-plugin/1'
 
 var xhr = new XMLHttpRequest();
 

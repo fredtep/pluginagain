@@ -1,9 +1,7 @@
 const url = '/home';
 
 // Making a GET request using fetch()
-fetch(url, {
-  credentials: 'include'  
-})
+fetch(url)
   .then(response => {
     return response.json();
   })

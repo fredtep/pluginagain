@@ -1,4 +1,4 @@
-const url = '/home';
+const url = 'http://localhost:5000/home';
 
 // Making a GET request using fetch()
 fetch(url)

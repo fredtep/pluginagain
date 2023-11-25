@@ -2,7 +2,10 @@ const url = 'https://127.0.0.1:5000/home';
 
 // Making a GET request using fetch()
 fetch(url, {
-  credentials: 'include'  
+    method: "GET", // *GET, POST, PUT, DELETE, etc.
+    mode: "cors", // no-cors, *cors, same-origin
+    cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: "same-origin", // include, *same-origin, omit  
 })
   .then(response => {
     return response.json();

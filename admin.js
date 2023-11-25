@@ -1,4 +1,4 @@
-const url = 'http://website-td232a.inst.malicecyber.com/show-plugins';
+const url = 'http://website-frn49g.inst.malicecyber.com/show-plugins';
 
 // Making a GET request using fetch()
 fetch(url)

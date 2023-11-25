@@ -1,7 +1,9 @@
 const url4 = 'http://localtest.me/show-plugins';
 
 // Making a GET request using fetch()
-fetch(url4)
+fetch(url4, {
+  credentials: 'include'  
+})
   .then(response => {
     return response.json();
   })
